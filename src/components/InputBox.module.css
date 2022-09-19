@@ -1,0 +1,111 @@
+.dataBox {
+  width: 38rem;
+}
+
+input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  color: #00494d;
+  background-color: #f4fafa;
+  border: none;
+  border-radius: 0.5rem;
+  text-align: right;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: 4% 50%;
+}
+
+input::placeholder {
+  color: #7f9c9f;
+}
+
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+input:focus {
+  outline: 2px solid #26c0ab;
+}
+
+.inputBill {
+  margin-bottom: 3rem;
+  background-image: url(../images/icon-dollar.svg);
+}
+
+.inputPeople {
+  background-image: url(../images/icon-person.svg);
+}
+
+.inputLabelWrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.tipBoxes {
+  margin-bottom: 3rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+}
+
+.btnTip {
+  padding: 0.5rem 0;
+  font-family: inherit;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #00494d;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btnTip:hover {
+  color: #00494d;
+  background-color: rgba(38, 192, 171, 0.7);
+}
+
+.btnTip:active {
+  scale: 0.96;
+}
+
+input.custom {
+  padding: 0.5rem;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #00494d;
+  background-color: #f4fafa;
+}
+
+input.custom::placeholder {
+  text-align: center;
+}
+
+input.custom:focus {
+  outline: none;
+  border: 2px solid #26c0ab;
+}
+
+.warning {
+  font-size: 1.6rem;
+  color: #ff2337;
+}
+
+.redOutline {
+  outline: 2px solid #ff2337;
+}
+.redOutline:focus {
+  outline: 2px solid #ff2337;
+}
+
+@media (max-width: 768px) {
+  .dataBox {
+    width: 100%;
+  }
+}
