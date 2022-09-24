@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InputBox from "./components/InputBox";
 import OutputBox from "./components/OutputBox";
+import Attribution from "./components/Attribution";
 
 import styles from "./App.module.css";
 import logo from "./images/logo.svg";
@@ -95,6 +96,7 @@ function App() {
           handleResetClick={handleResetClick}
         />
       </div>
+      <Attribution />
     </div>
   );
 }
