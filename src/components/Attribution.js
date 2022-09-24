@@ -1,9 +1,9 @@
 import React from "react";
-import "./Attribution.module.css";
+import styles from "./Attribution.module.css";
 
 function Attribution() {
   return (
-    <div className="attribution">
+    <div className={styles.attribution}>
       <span>Challenge by </span>
       <span>
         <a

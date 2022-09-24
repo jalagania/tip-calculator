@@ -1,17 +1,14 @@
 .attribution {
   font-size: 1.6rem;
+  font-weight: bold;
   text-align: center;
-  color: #cee3e9;
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
+  color: #00494d;
 }
 
 .attribution a:link,
 a:visited {
   text-decoration: none;
-  color: #52ffa8;
+  color: #26c0ab;
 }
 
 .attribution a:hover {
@@ -20,7 +17,7 @@ a:visited {
 
 @media (max-width: 768px) {
   .attribution {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
